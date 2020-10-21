@@ -45,6 +45,7 @@ services:
     restart: unless-stopped
     links:
       - prometheus:prometheus
+    user: root
     ports:
       - 13000:3000
     volumes:
