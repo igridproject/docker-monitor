@@ -6,7 +6,7 @@ services:
     image: prom/prometheus:latest
     container_name: monitoring_prometheus
     restart: unless-stopped
-    user: "1000:1000"
+    user: root
     volumes:
       - ./promcfg:/etc/prometheus/
       - ./volume/prometheus/data:/prometheus
