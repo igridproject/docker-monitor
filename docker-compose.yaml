@@ -59,4 +59,4 @@ services:
       - GF_SMTP_PASSWORD=
       - GF_SMTP_FROM_ADDRESS=myaddress@gmail.com
       - GF_SERVER_DOMAIN=covid-ddc2.bigstream.cloud
-      - GF_SERVER_ROOT_URL=https://covid-ddc2.bigstream.cloud/grafana
+      - GF_SERVER_ROOT_URL=http://covid-ddc2.bigstream.cloud/grafana
